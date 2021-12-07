@@ -1,0 +1,24 @@
+.Search-container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url('../assets/images/search.jpg');
+    background-size: cover;
+}
+.Search-inputs{
+    padding-top: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.captions{
+    width: 500px;
+    margin: 0 auto;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}

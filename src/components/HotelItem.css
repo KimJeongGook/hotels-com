@@ -1,0 +1,84 @@
+.HotelItem-container{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.HotelItem-thumbnail{
+    width: 250px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 10px;
+}
+.HotelItem-thumbnail-img{
+    width: 100%;
+    height: 100%;
+}
+.HotelItem-info{
+    box-sizing: border-box;
+    padding: 10px;
+    flex: 1;
+}
+.HotelItem-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.HotelItem-name span{
+    font-size: 0.9rem;
+    color: red;
+}
+.HotelItem-address{
+    color: #525252;
+}
+.HotelItem-neighbourhood{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.HotelItem-landmarks{
+    font-size: 0.9rem;
+}
+.HotelItem-rating{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+.HotelItem-rating-badge{
+    background-color: #218242;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+}
+.HotelItem-rating-badgeText{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.HotelItem-price{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.HotelItem-price-per-oneday{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.HotelItem-price-per-oneday-title{
+    font-size: 0.8rem;
+    color: #525252;
+}
+.HotelItem-price-total{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.HotelItem-price-summary{
+    font-size: 0.8rem;
+    color: #525252;
+}

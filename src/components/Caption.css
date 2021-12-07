@@ -1,0 +1,17 @@
+.Caption-container{
+    border: 1px solid tan;
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+    color: #a9a9a9;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+.Caption-container:hover{
+    background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2));
+}
+
+.highlight{
+    background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2));
+}

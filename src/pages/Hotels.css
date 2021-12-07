@@ -1,0 +1,6 @@
+.Hotels-container{
+    width: 45%;
+    margin: 0 auto;
+}
+/* 지도크기 */
+#map { height: 400px; }
