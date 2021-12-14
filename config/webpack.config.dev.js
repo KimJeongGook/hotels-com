@@ -17,6 +17,9 @@ module.exports = {
     filename: "index_bundle.js"
     // publicPath: "/" // http://0.0.0.0:3000/index_bundle.js 접속시 빌드 이후의 javascript 볼 수 있음
   },
+  // start new code
+  devtool: "inline-source-map",
+
   // 빌드된 파일의 크기가 512000 이상이면 경고 메시지 출력
   performance: {
     // hints: false,

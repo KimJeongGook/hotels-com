@@ -1,0 +1,34 @@
+.Accordion-container{
+    border-top: 1px solid lightgray;
+}
+.Accordion-menu{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    user-select: none;
+}
+.Accordion-arrow{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('../assets/images/down-arrow.png');
+    background-size: cover;
+}
+.change-arrow{
+    background-image: url('../assets/images/up-arrow.png');
+}
+
+.Accordion-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1a1c1b;
+}
+.Accordion-items{
+    display: none;
+}
+.expand-filter{
+    display: block;
+}
